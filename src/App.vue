@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-view/>
+    <router-view/><!--当前路由地址所显示的内容-->
   </div>
 </template>
 
