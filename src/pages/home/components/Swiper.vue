@@ -39,7 +39,7 @@ export default{
 .wrapper
   width: 100%
   height: 0
-  padding-bottom: 27.5%
+  padding-bottom: 26.5%
   .swiper-img
     width: 100%
 </style>
