@@ -26,63 +26,16 @@ export default{
       swiperOption: {
         pagination: '.swiper-pagination',
         autoplay: false
-      },
-      iconList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-        decs: '景点门票'
-      },
-      {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png',
-        decs: '文化古迹'
-      },
-      {
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/e3/67df61427c8e1302.png',
-        decs: '演出'
-      },
-      {
-        id: '0004',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png',
-        decs: '一日游'
-      },
-      {
-        id: '0005',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png',
-        decs: '兴汉胜境'
-      },
-      {
-        id: '0006',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png',
-        decs: '动植物园'
-      },
-      {
-        id: '0007',
-        imgUrl: 'https://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png',
-        decs: '打卡圣地'
-      },
-      {
-        id: '0008',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/fa/2548667cb6e902.png',
-        decs: '兵马俑'
-      },
-      {
-        id: '0009',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png',
-        decs: '亲子游'
-      },
-      {
-        id: '0010',
-        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png',
-        decs: '全部玩乐'
-      }]
+      }
     }
+  },
+  props: {
+    list: Array
   },
   computed: {
     pages () {
       const pages = []
-      this.iconList.forEach((currentItem, index) => {
+      this.list.forEach((currentItem, index) => {
         const page = Math.floor(index / 8)
         if (!pages[page]) {
           pages[page] = []
