@@ -1,6 +1,6 @@
 <template>
 <div class="icons">
-  <swiper>
+  <swiper :options="swiperOption">
     <swiper-slide v-for="(page,index) of pages" :key="index">
       <div  class="icon"
             v-for="item of page"
@@ -12,6 +12,8 @@
         <p class="icon-desc" v-html="item.decs"></p>
       </div>
     </swiper-slide>
+    <!-- Optional controls -->
+    <div class="swiper-pagination"  slot="pagination"></div>
   </swiper>
 </div>
 </template>
@@ -21,6 +23,10 @@ export default{
   name: 'HomeIcons',
   data () {
     return {
+      swiperOption: {
+        pagination: '.swiper-pagination',
+        autoplay: false
+      },
       iconList: [{
         id: '0001',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
@@ -70,8 +76,7 @@ export default{
         id: '0010',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png',
         decs: '全部玩乐'
-      }
-      ]
+      }]
     }
   },
   computed: {
@@ -95,34 +100,40 @@ export default{
 @import '~styles/mixins.styl'
 .icons >>> .swiper-container
   height: 0
-  padding-bottom: 50%
-.icon
-  position: relative
-  overflow: hidden
-  float: left
-  width: 25%
-  height: 0
-  padding-bottom: 25%
-  .icon-img
-    position: absolute
-    top: 0
-    left: 0
-    right: 0
-    bottom: .44rem
-    box-sizing: border-box
-    padding: .15rem
-    .icon-img-content
-      display: block
-      height: 100%
-      margin: 0 auto
-  .icon-desc
-    position: absolute
-    left: 0
-    right: 0
-    bottom: 0
-    height: .44rem
-    line-height: .44rem
-    color: $darkTextColor
-    text-align: center
-    ellipsis()
+  padding-bottom: 55%
+.icons >>> .swiper-pagination-bullet-active
+  background: rgba(0,175,190,.8)
+.swiper-pagination-bullets
+  bottom: 0
+.icons
+  margin-top: .1rem
+  .icon
+    position: relative
+    overflow: hidden
+    float: left
+    width: 25%
+    height: 0
+    padding-bottom: 25%
+    .icon-img
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: .44rem
+      box-sizing: border-box
+      padding: .15rem
+      .icon-img-content
+        display: block
+        height: 100%
+        margin: 0 auto
+    .icon-desc
+      position: absolute
+      left: 0
+      right: 0
+      bottom: 0
+      height: .44rem
+      line-height: .44rem
+      color: $darkTextColor
+      text-align: center
+      ellipsis()
 </style>
