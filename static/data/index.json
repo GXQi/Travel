@@ -1,0 +1,123 @@
+{
+  "ret": true,
+  "data": {
+    "swiperList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/12/856f100069809e02.jpg_750x200_e3485a2b.jpg"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1811/4d/6706bf772c05ce02.jpg_750x200_773e75f0.jpg"
+      }],
+    "iconList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "decs": "景点门票"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+        "decs": "文化古迹"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/e3/67df61427c8e1302.png",
+        "decs": "演出"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+        "decs": "一日游"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+        "decs": "兴汉胜境"
+      },
+      {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+        "decs": "动植物园"
+      },
+      {
+        "id": "0007",
+        "imgUrl": "https://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+        "decs": "打卡圣地"
+      },
+      {
+        "id": "0008",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/fa/2548667cb6e902.png",
+        "decs": "兵马俑"
+      },
+      {
+        "id": "0009",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png",
+        "decs": "亲子游"
+      },
+      {
+        "id": "0010",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png",
+        "decs": "全部玩乐"
+      }],
+    "recommendList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1602/de/de8400021b664c5390.img.jpg_200x200_46b16057.jpg",
+        "title": "华清宫",
+        "desc": "探寻杨贵妃御汤遗址"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1412/89/66dadfb4d982e6f88abad45a3e062342.water.jpg_200x200_0443bc40.jpg",
+        "title": "曲江海洋极地公园",
+        "desc": "极地公园四馆八区带你畅游海洋世界"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1512/b5/b539dcc3d0fe7be990.img.jpg_200x200_6db19022.jpg",
+        "title": "西安东大南山温泉",
+        "desc": ""
+      },
+      {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1511/a3/a3939e44477746c490.img.jpg_200x200_327e7822.jpg",
+        "title": "西安临潼悦椿温泉",
+        "desc": "🔥好评如潮，小伙伴热推景点~"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1508/db/dbd0bef45fbc36b3.img.jpg_200x200_1b88abcf.jpg",
+        "title": "大唐芙蓉园",
+        "desc": "中国最大的仿唐皇家建筑群"
+      }],
+    "weekendList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1811/63/808c022b285a2c.jpg_r_640x214_ad984479.jpg",
+        "title": "探寻文化古都",
+        "desc": "一场时空穿越的旅行，探寻历史悠久的文化古都！"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/74/98a840f2a881b.jpg_r_640x214_1bf94c8e.jpg",
+        "title": "西安温泉季",
+        "desc": "冬日温暖泡出来，西安温泉季"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/19/58f233e11df7ef.jpg_r_640x214_6b42c9fc.jpg",
+        "title": "西安必游TOP10",
+        "desc": "寻长安梦，开启穿越的圆梦之旅"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1511/14/1cf5dc2ecbfc16.jpg_r_640x214_b4b3a58a.jpg",
+        "title": "醉美丝路行",
+        "desc": "情系西北，中国梦丝路行"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1509/2f/bbb38e80bf749f.jpg_r_640x214_2590c69d.jpg",
+        "title": "唐诗里的秋天",
+        "desc": "秋日赏枫，梦幻枫叶的天堂"
+      }]
+  }
+}
