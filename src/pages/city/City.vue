@@ -39,7 +39,7 @@ export default {
   },
   methods: {
     getCityInfo () {
-      axios.get('/api/city.json').then(this.getCityInfoSucc)
+      axios.get('https://gxqi.github.io/Travel/static/data/city.json').then(this.getCityInfoSucc)
     },
     getCityInfoSucc (res) {
       res = res.data

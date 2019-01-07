@@ -30,7 +30,7 @@ export default{
   },
   methods: {
     getDetailInfo () {
-      axios.get('/api/detail.json', {
+      axios.get('https://gxqi.github.io/Travel/static/data/detail.json', {
         params: {
           id: this.$route.params.id
         }
